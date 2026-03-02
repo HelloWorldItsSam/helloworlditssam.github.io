@@ -10,6 +10,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	html,body,h1,h2,h3,h4,h5,h6 {font-family: Georgia, serif;}
+  .project-badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; margin:2px 6px 2px 0; }
+  .badge-acad { background:#ede7f6; color:#4a148c; }
+  .badge-work { background:#e0f2f1; color:#004d40; }
+  .badge-lead { background:#fff3e0; color:#e65100; }
+  .badge-build { background:#e3f2fd; color:#0d47a1; }
+  .proj-list { margin-top:6px; margin-bottom:6px; }
 </style>
 </head>
 <body class="w3-light-grey">
@@ -101,6 +107,130 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
         </div>
       </div>
+
+      <!-- PROJECTS SECTION (ADDED) -->
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16">
+          <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects (Last 2 Years)
+        </h2>
+
+        <!-- Capstone -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>AR Physical Therapy Capstone — Gamified Rehab App (Lakeland Regional Health)</b></h5>
+          <span class="project-badge badge-acad">Capstone</span>
+          <span class="project-badge badge-build">AR / UX</span>
+          <span class="project-badge badge-lead">Team Lead</span>
+          <p class="proj-list">
+            Built an AR exercise experience with avatar demo → guided practice → real-world execution, including scoring/feedback and local data storage planning.
+            Led UI/UX prototyping (Figma) and managed deliverables (memos, presentations, schedules, sponsor updates).
+          </p>
+          <hr>
+        </div>
+
+        <!-- VR Introvert Leadership -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>VR Leadership Simulation for Introverts (Research)</b></h5>
+          <span class="project-badge badge-acad">Research</span>
+          <span class="project-badge badge-build">VR</span>
+          <span class="project-badge badge-lead">Study Design</span>
+          <p class="proj-list">
+            Designed three VR scenarios (time-pressure task leadership, conflict mediation roleplay, and elevator pitch advocacy) to assess and train communication, conflict management, and team-building behaviors.
+          </p>
+          <hr>
+        </div>
+
+        <!-- KBR Tools -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>KBR — Power BI Transition Tooling (PIP / RAIL / BOE / Org Chart)</b></h5>
+          <span class="project-badge badge-work">Professional</span>
+          <span class="project-badge badge-build">Power BI</span>
+          <span class="project-badge badge-build">Excel + Deneb</span>
+          <p class="proj-list">
+            Developed standardized transition workbooks and dashboards (multi-version PIP Transition Data Workbook) with workforce planning fields (Summer/Winter, Deployment, Full-Time/Seasonal),
+            Deneb (Vega) visuals, validation/debugging for hierarchy keys (ID/Parent ID), and scalable navigation (“Main Menu”) patterns.
+          </p>
+          <hr>
+        </div>
+
+        <!-- Cloud Server -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Socket-Based Networked File Sharing Cloud Server (Python)</b></h5>
+          <span class="project-badge badge-acad">Course Project</span>
+          <span class="project-badge badge-build">Networking</span>
+          <p class="proj-list">
+            Implemented a multithreaded client-server system supporting upload/download/delete/list commands, basic authentication with hashed passwords, and performance metrics (rates + response times).
+          </p>
+          <hr>
+        </div>
+
+        <!-- ML: Customer Exit -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Customer Exit Prediction (Machine Learning)</b></h5>
+          <span class="project-badge badge-acad">ML</span>
+          <span class="project-badge badge-build">Python</span>
+          <p class="proj-list">
+            Built preprocessing pipelines and evaluated multiple classifiers (Random Forest, Logistic Regression, KNN, Gradient Boosting, Voting Classifier) using k-fold validation and test metrics.
+          </p>
+          <hr>
+        </div>
+
+        <!-- ML: Segmentation -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Customer Segmentation (Unsupervised Learning)</b></h5>
+          <span class="project-badge badge-acad">ML</span>
+          <span class="project-badge badge-build">Clustering</span>
+          <p class="proj-list">
+            Clustered customers using K-Means, DBSCAN, and Gaussian Mixtures with silhouette/inertia evaluation and segment interpretation for personalization use-cases.
+          </p>
+          <hr>
+        </div>
+
+        <!-- EDA -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Exploratory Data Analysis (EDA) — Real-World Dataset</b></h5>
+          <span class="project-badge badge-acad">Data Analytics</span>
+          <span class="project-badge badge-build">Visualization</span>
+          <p class="proj-list">
+            Cleaned, analyzed, and visualized data using Python (NumPy/Pandas/Matplotlib/Seaborn) to produce insights and recommendations.
+          </p>
+          <hr>
+        </div>
+
+        <!-- Software Testing -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Testing Portfolio (JUnit + Test Design)</b></h5>
+          <span class="project-badge badge-acad">QA</span>
+          <span class="project-badge badge-build">JUnit</span>
+          <p class="proj-list">
+            Created unit tests (e.g., TriangleType, BoundedQueue) and applied systematic test design techniques such as Input Space Partitioning.
+          </p>
+          <hr>
+        </div>
+
+        <!-- Formal Languages -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Formal Languages & Automata Practice Set</b></h5>
+          <span class="project-badge badge-acad">Theory</span>
+          <span class="project-badge badge-build">CFG / LR / TM</span>
+          <p class="proj-list">
+            Built derivations and parse trees, converted grammars (EBNF ↔ BNF, CFG → CNF), practiced LR parsing, and traced Turing machine execution behavior.
+          </p>
+          <hr>
+        </div>
+
+        <!-- SGA -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Student Government Initiatives (Leadership + Programming Adjacent Work)</b></h5>
+          <span class="project-badge badge-lead">Leadership</span>
+          <span class="project-badge badge-build">Operations</span>
+          <p class="proj-list">
+            Built operational artifacts (guides, templates, communications) and helped lead initiatives including the Eclipse Alumni Celebration concept and a Senate Leadership Guide resource folder.
+          </p>
+          <br>
+        </div>
+
+      </div>
+      <!-- END PROJECTS SECTION -->
 
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
