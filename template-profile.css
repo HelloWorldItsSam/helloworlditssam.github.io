@@ -16,6 +16,25 @@
   .badge-lead { background:#fff3e0; color:#e65100; }
   .badge-build { background:#e3f2fd; color:#0d47a1; }
   .proj-list { margin-top:6px; margin-bottom:6px; }
+	details summary {
+	  cursor: pointer;
+	  font-weight: bold;
+	  font-size: 18px;
+	  color: #4b0082;
+	  padding: 8px 0;
+	}
+	
+	details summary:hover {
+	  color: #6a0dad;
+	}
+	
+	details[open] summary {
+	  margin-bottom: 8px;
+	}
+	
+	details {
+	  margin-bottom: 10px;
+	}
 </style>
 </head>
 <body class="w3-light-grey">
